@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.left{
+    padding: 15px;
+    justify-content: space-between;
+}
+header a{
+    padding: 5px;
+    margin-right: 20px;
+    color: black;
+    font-size: 15px;
+    text-decoration: inherit;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.right{
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headerapps{
+    margin-right: 10px;
+}
+.mbody{
+    flex: 1;
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+    top: 5%;
+}
+.mbody img{
+    object-fit: contain;
+    height: 120px;
+    text-align: center;
+    margin-top: 0%;
+}
+.sinput{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+    margin-top: 1%;
+}
+.sinput input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+.sinput .material-symbols-outlined{
+    color: gray;
+}
+/* .icon{
+    display: flex;
+    justify-content: space-between;
+} */
+.sbutton{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.sbutton input{
+    /* margin: 5px; */
+    /* padding: 10px 15px; */
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    background-color: rgb(240, 231, 231);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    width: 150px;
+    min-width: 20px;
+    text-align: center;
+    user-select: none;
+    border-radius: 4px;
+    position: relative;
+}
+.sbutton input:hover{
+    border: 2px solid rgb(146, 146, 146);
+    position: sticky;
+}
+.lang{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2%;
+}
+.lang p{
+    padding: 5px;
+}
+.lang a{
+    padding: 5px;
+    text-decoration: none;
+}
+.lang a:hover{
+    text-decoration: underline;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(238, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+footer hr{
+    color: black;
+}
+.f1{
+    padding: 15px 30px;
+    border-radius: 1px solid red;
+}
+.f2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;    
+}
+.fleft a, .fright a{
+    text-decoration: none;
+    color: rgb(12, 1, 12);
+    padding: 0px 20px 0 0;
+}
+.fright a:hover , .fleft a:hover{
+    text-decoration: underline;
+
+}
+/* .footer{
+    margin: 2%;
+    margin-top: 13%;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    height: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.footer .f1{
+    padding: 10px;
+    left: 20%;
+}
+.footer .f2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.f2 a{
+    color: white;
+    text-decoration: none;
+}
+.f2 a:hover{
+    text-decoration: underline;
+}
+.left{
+        padding: 15px;
+        justify-content: space-between;
+}
+.right{
+        padding: 10px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        min-width: 13vw;
+        justify-content: space-between;
+} 
+/* .f2 .right{
+    margin-right: -8%;
+    justify-content: space-between;
+} */
+/* #space{
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: right;
+    /* min-width: 40vw; */
+    /* margin-right: 80px; 
+} */ 
+/* #space2{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    /* min-width: 40vw; */
+    /* margin-right: -1px; 
+}  */
